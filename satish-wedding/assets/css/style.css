@@ -319,10 +319,18 @@ html, body {
     width: 100%;
     height: auto;
 }
-@media screen and (max-height: 650px){
+@media screen and (max-height: 600px){
     .balloon {
         width: 130px;
         height: 130px;
+    }
+    .content.zooming-love img {
+        width: 20%;
+        position: absolute;
+        bottom: 0;
+        margin: auto;
+        left: 38%;
+        transform: none !important;
     }
 }
 
